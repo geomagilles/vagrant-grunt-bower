@@ -43,8 +43,8 @@ Grunt and Bower are now ready to be used.
 
 Laravel New Install (optional):
 ------------------------------------
+If you want to install a fresh install of Laravel, just enter the virtual machine (vagrant ssh), then
 ````
-vagrant ssh
 cd /vagrant
 git clone --no-checkout https://github.com/laravel/laravel.git ./laravel
 mv laravel/.git www/.
@@ -54,3 +54,5 @@ git reset --hard HEAD
 rm public/index.html
 composer install
 ````
+
+Have a look at http://localhost:8080, you are arrived!
