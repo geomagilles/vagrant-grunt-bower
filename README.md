@@ -6,8 +6,8 @@ Vagrant configuration with grunt, bower, php, mysql included.
 Prerequisites
 =============
 Please install 
-- Vagrant: http://www.vagrantup.com/downloads
-- VirtualBox: https://www.virtualbox.org/wiki/Downloads
+- Vagrant: [http://www.vagrantup.com/downloads](http://www.vagrantup.com/downloads)
+- VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 Installation
 ============
@@ -24,7 +24,7 @@ Run vagrant:
 cd vagrant-grunt-bower
 vagrant up
 ````
-Have a coffee - At the end you should access a simple html page at http://localhost:8080
+Have a coffee - At the end you should access a simple html page at [http://localhost:8080](http://localhost:8080)
 
 Then enter the virtual machine and locally install grunt plug-ins:
 ````
@@ -55,4 +55,4 @@ rm public/index.html
 composer install
 ````
 
-Have a look at http://localhost:8080, you are arrived!
+Have a look at [http://localhost:8080](http://localhost:8080), you have arrived!
