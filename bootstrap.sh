@@ -92,10 +92,9 @@ apt-get install -y nodejs
 # -----------
 npm update -g npm
 
-# Install Bower & components
-# --------------------------
+# Install Bower
+# -------------
 npm install -g bower
-bower install --allow-root --config.interactive=false
 
 # Install Grunt
 # -------------
