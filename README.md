@@ -31,14 +31,14 @@ Then enter the virtual machine and locally install bower components and whatever
 vagrant ssh
 cd /vagrant/www
 bower install
-npm install grunt --save-dev
-npm install grunt-contrib-copy --save-dev
-npm install grunt-contrib-concat --save-dev
-npm install grunt-contrib-uglify --save-dev
-npm install grunt-contrib-watch --save-dev
-npm install grunt-contrib-cssmin --save-dev
-npm install grunt-contrib-imagemin --save-dev
-npm install grunt-phpunit --save-dev
+npm install grunt
+npm install grunt-contrib-copy
+npm install grunt-contrib-concat
+npm install grunt-contrib-uglify
+npm install grunt-contrib-watch
+npm install grunt-contrib-cssmin
+npm install grunt-contrib-imagemin
+npm install grunt-phpunit
 ````
 Grunt and Bower are now ready to be used.
 
