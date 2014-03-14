@@ -3,30 +3,38 @@ vagrant-grunt-bower
 
 Vagrant configuration with grunt, bower, php, mysql included.
 
-Prerequisite
-============
-Please install Vagrant : http://www.vagrantup.com/downloads
-
+Prerequisites
+=============
+Please install 
+- Vagrant: http://www.vagrantup.com/downloads
+- VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 Installation
 ============
 
-Clone this repository :
------------------------
+Clone this repository:
+----------------------
 ````
 git clone https://github.com/geomagilles/vagrant-grunt-bower.git
 ``````
 
-Run vagrant :
--------------
+Run vagrant:
+------------
 ````
 cd vagrant-grunt-bower
 vagrant up
 ````
 Have a coffee - At the end you should access a simple html page at http://localhost:8080
 
+If you want to enter the virtual machine:
+````
+vagrant ssh
+cd /vagrant
+````
+Grunt and Bower are ready to be used.
+
 Laravel New Installation (optional):
---------------------------------
+------------------------------------
 ````
 vagrant ssh
 cd /vagrant
