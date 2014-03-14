@@ -97,8 +97,8 @@ npm update -g npm
 npm install -g bower
 bower install --allow-root --config.interactive=false
 
-# Install Grunt & plugins
-# -----------------------
+# Install Grunt
+# -------------
 npm install -g grunt-cli
 
 # Create Database
