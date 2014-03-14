@@ -29,7 +29,7 @@ Have a coffee - At the end you could access a simple html page at [http://localh
 Then enter the virtual machine and locally install grunt plug-ins:
 ````
 vagrant ssh
-cd /vagrant
+cd /vagrant/www
 npm install grunt
 npm install grunt-contrib-copy
 npm install grunt-contrib-concat
