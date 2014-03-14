@@ -95,19 +95,11 @@ npm update -g npm
 # Install Bower & components
 # --------------------------
 npm install -g bower
-bower install
+bower install --allow-root --config.interactive=false
 
 # Install Grunt & plugins
 # -----------------------
 npm install -g grunt-cli
-npm install grunt
-npm install grunt-contrib-copy
-npm install grunt-contrib-concat
-npm install grunt-contrib-uglify
-npm install grunt-contrib-watch
-npm install grunt-contrib-cssmin
-npm install grunt-contrib-imagemin
-npm install grunt-phpunit
 
 # Create Database
 # ---------------
