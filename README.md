@@ -26,10 +26,11 @@ vagrant up
 ````
 Have a coffee - At the end you could access a simple html page at [http://localhost:8080](http://localhost:8080)
 
-Then enter the virtual machine and locally install grunt plug-ins:
+Then enter the virtual machine and locally install bower components and grunt plug-ins:
 ````
 vagrant ssh
 cd /vagrant/www
+bower install
 npm install grunt
 npm install grunt-contrib-copy
 npm install grunt-contrib-concat
