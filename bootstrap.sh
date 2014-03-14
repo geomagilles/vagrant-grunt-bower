@@ -114,12 +114,17 @@ npm install grunt-phpunit
 mysql -uroot -e 'create database `database`;'
 mysql -uroot -e 'grant all on `database`.* to `root@localhost`;'
 
-# Laravel stuff
-# -------------
-# Load Composer packages
-cd /vagrant/www
-# composer create-project laravel/laravel --prefer-dist
-# composer install --dev
+# Create new Laravel project
+# --------------------------
+# cd /vagrant
+# git clone --no-checkout https://github.com/laravel/laravel.git ./laravel
+# mv laravel/.git www/.
+# rmdir laravel
+# cd www
+# git reset --hard HEAD
+# rm public/index.html
+# composer install
+#
 # Run artisan migrate to setup the database and schema, then seed it
 # php artisan migrate
 # php artisan db:seed --env=development
