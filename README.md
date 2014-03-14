@@ -26,12 +26,20 @@ vagrant up
 ````
 Have a coffee - At the end you should access a simple html page at http://localhost:8080
 
-If you want to enter the virtual machine:
+Then enter the virtual machine and locally install grunt plug-ins:
 ````
 vagrant ssh
 cd /vagrant
+npm install grunt
+npm install grunt-contrib-copy
+npm install grunt-contrib-concat
+npm install grunt-contrib-uglify
+npm install grunt-contrib-watch
+npm install grunt-contrib-cssmin
+npm install grunt-contrib-imagemin
+npm install grunt-phpunit
 ````
-Grunt and Bower are ready to be used.
+Grunt and Bower are now ready to be used.
 
 Laravel New Install (optional):
 ------------------------------------
