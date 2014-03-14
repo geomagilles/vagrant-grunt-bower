@@ -17,15 +17,15 @@ module.exports = function(grunt) {
       js: {
         src: [
           './bower_components/jquery/jquery.js',
-          './bower_components/bootstrap/dist/js/bootstrap.js'
-          './app/assets/js/*.js'
+          './bower_components/bootstrap/dist/js/bootstrap.js',
+          './assets/js/*.js'
         ],
         dest: './public/js/all.js',
       },
       css: {
         src : [
           './bower_components/html5-boilerplate/css/*.css',
-          './app/assets/css/*.css',
+          './assets/css/*.css',
         ],
         dest: './public/css/all.css',        
       } 
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
         js: {
           files: [
             //watched files
-            './app/assets/js/*.js'
+            './assets/js/*.js'
             ],   
           tasks: ['concat:js','uglify:js'],     //tasks to run
           options: {
@@ -68,8 +68,8 @@ module.exports = function(grunt) {
           }
         },
         tests: {
-          files: ['app/controllers/*.php','app/models/*.php'],  //the task will run only when you save files in this location
-          tasks: ['phpunit']
+          // files: ['app/controllers/*.php','app/models/*.php'],  //the task will run only when you save files in this location
+          // tasks: ['phpunit']
         }
       }
     });

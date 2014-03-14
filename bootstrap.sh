@@ -92,20 +92,22 @@ apt-get install -y nodejs
 # -----------
 npm update -g npm
 
-# Install Bower
-# -------------
+# Install Bower & components
+# --------------------------
 npm install -g bower
+bower install
 
 # Install Grunt & plugins
 # -----------------------
 npm install -g grunt-cli
-npm install -g grunt-contrib-copy
-npm install -g grunt-contrib-concat
-npm install -g grunt-contrib-uglify
-npm install -g grunt-contrib-watch
-npm install -g grunt-contrib-cssmin
-npm install -g grunt-contrib-imagemin
-npm install -g grunt-phpunit
+npm install grunt
+npm install grunt-contrib-copy
+npm install grunt-contrib-concat
+npm install grunt-contrib-uglify
+npm install grunt-contrib-watch
+npm install grunt-contrib-cssmin
+npm install grunt-contrib-imagemin
+npm install grunt-phpunit
 
 # Create Database
 # ---------------
