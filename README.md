@@ -33,7 +33,7 @@ cd /vagrant
 ````
 Grunt and Bower are ready to be used.
 
-Laravel New Installation (optional):
+Laravel New Install (optional):
 ------------------------------------
 ````
 vagrant ssh
