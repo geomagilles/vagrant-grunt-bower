@@ -24,7 +24,7 @@ Run vagrant:
 cd vagrant-grunt-bower
 vagrant up
 ````
-Have a coffee - At the end you should access a simple html page at [http://localhost:8080](http://localhost:8080)
+Have a coffee - At the end you could access a simple html page at [http://localhost:8080](http://localhost:8080)
 
 Then enter the virtual machine and locally install grunt plug-ins:
 ````
